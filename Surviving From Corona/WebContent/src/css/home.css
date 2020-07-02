@@ -1,0 +1,236 @@
+body {
+  overflow: hidden;
+  font-family: "Jua", sans-serif;
+}
+
+#room {
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 1600px;
+  height: 900px;
+}
+
+#plant {
+  position: absolute;
+  left: 700px;
+  top: 280px;
+  width: 139px;
+  height: 320px;
+}
+#chest {
+  position: absolute;
+  left: 500px;
+  top: 440px;
+  width: 311px;
+  height: 253px;
+}
+#trashbin {
+  position: absolute;
+  left: 300px;
+  top: 610px;
+  width: 160px;
+  height: 118px;
+}
+#bag {
+  position: absolute;
+  left: 410px;
+  top: 570px;
+  width: 158px;
+  height: 126px;
+}
+#flower {
+  position: absolute;
+  left: 530px;
+  top: 360px;
+  width: 165px;
+  height: 146px;
+}
+#bed {
+  position: absolute;
+  left: 580px;
+  top: 580px;
+  width: 513px;
+  height: 254px;
+}
+#closet {
+  position: absolute;
+  left: 900px;
+  top: 260px;
+  width: 396px;
+  height: 519px;
+}
+#cat {
+  position: absolute;
+  left: 570px;
+  top: 685px;
+  width: 173px;
+  height: 131px;
+}
+
+#upper_chest_clickable {
+  position: absolute;
+  left: 565px;
+  top: 490px;
+  width: 170px;
+  height: 78px;
+}
+#lower_chest_clickable {
+  position: absolute;
+  left: 565px;
+  top: 575px;
+  width: 170px;
+  height: 78px;
+}
+#closet_clickable {
+  position: absolute;
+  left: 1000px;
+  top: 290px;
+  width: 202px;
+  height: 424px;
+}
+#bed_clickable {
+  position: absolute;
+  left: 660px;
+  top: 605px;
+  width: 400px;
+  height: 174px;
+}
+#plant_clickable {
+  position: absolute;
+  left: 725px;
+  top: 280px;
+  width: 100px;
+  height: 324px;
+}
+#flower_clickable {
+  position: absolute;
+  left: 575px;
+  top: 340px;
+  width: 49px;
+  height: 138px;
+}
+#flower_broken_clickable {
+  position: absolute;
+  left: 535px;
+  top: 430px;
+  width: 165px;
+  height: 60px;
+}
+
+ #status {
+  position: absolute;
+  left: 300px;
+  top: 30px;
+} 
+ #virus_icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+#virus_background {
+  position: absolute;
+  left: 40px;
+  top: 20px;
+  width: 520px;
+  height: 30px;
+  background-color: #ebebeb;
+  opacity: 0.5;
+  border-radius: 30px;
+}
+#virus_status {
+  position: absolute;
+  left: 40px;
+  top: 25px;
+  width: 10px;
+  height: 20px;
+  background: red;
+  background: linear-gradient(90deg, #ed3740 0%, #0b0b71 65%, #8c00ff 100%);
+  border-radius: 30px;
+} 
+#money_div {
+  position: absolute;
+  left: 45px;
+  top: 50px;
+  width: 100px;
+  height: 40px;
+  margin: 0;
+  background-image: url(../images/money.png);
+}
+#money_div p {
+  position: absolute;
+  left: 47px;
+  color: #382615;
+}
+
+
+#inventory {
+  position: absolute;
+  left: 300px;
+  top: 110px;
+  font-size: 30px;
+  color: #eb9f8a;
+}
+#inventory img:hover {
+  opacity: 0.7;
+}
+
+.modal {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 1;
+  width: 800px;
+  height: 600px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.modal-content {
+  margin: auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+.modal-content h3 {
+  color: #eb9f8a;
+}
+.modal-content h1 {
+  color: silver;
+}
+.modal-content p {
+  font-size: 16px;
+  color: gray;
+}
+#ref {
+  font-size: 12px;
+  color: silver;
+}
+.modal-content a {
+  background: rgba(255, 255, 255, 0);
+  border: 5px solid #eb9f8a;
+  border-radius: 30px;
+  display: inline-block;
+  cursor: pointer;
+  color: #eb9f8a;
+  font-size: 25px;
+  padding: 16px 50px;
+  text-decoration: none;
+}
+.modal-content a:hover {
+  background: rgba(255, 159, 138, 0.2);
+}
+.modal-content a:active {
+  background: rgba(255, 159, 138, 0.6);
+  color: white;
+}
+
+#thumb:hover {
+  transition: opacity 0.5s linear;
+  opacity: 0;
+}

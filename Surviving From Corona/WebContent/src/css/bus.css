@@ -1,0 +1,184 @@
+html,
+body {
+  background-color: white;
+  width: 1920px;
+  height: 1080px;
+}
+
+#nav {
+  height: 150px;
+}
+
+.menu-box {
+  height: 150px;
+  margin-top: 25px;
+}
+
+.top-left-menu {
+  float: left;
+  margin-left: 10px;
+  width: 20%;
+}
+
+.transportation {
+  float: left;
+  width: 370px;
+  height: 370px;
+  border-radius: 185px;
+  border: solid;
+  background-color: lightgray;
+  position: absolute;
+  margin-left: 10px;
+  top: -140px;
+  left: -140px;
+  z-index: 1;
+}
+
+#icon-bus {
+  width: 187px;
+  height: 97px;
+  top: 40px;
+  left: 20px;
+  position: absolute;
+  z-index: 2;
+}
+
+.top-middle-menu {
+  float: left;
+  padding-left: 300px;
+}
+
+#icon-corona {
+  width: 110px;
+  height: 95px;
+  float: left;
+}
+
+.gage-corona {
+  width: 40em;
+  height: 40px;
+  border: solid;
+  margin-top: 27.5px;
+  margin-left: 120px;
+}
+
+#icon-money {
+  width: 108px;
+  height: 82px;
+  margin-left: 220px;
+}
+
+.quantity-money {
+  border: solid;
+  height: 30px;
+  width: 20em;
+  float: right;
+  margin-top: 27px;
+}
+
+.top-right-menu {
+  float: right;
+  margin-right: 10px;
+  position: absolute;
+  top: 30px;
+  left: 1600px;
+}
+
+#icon-retry,
+#icon-sound-on {
+  width: 100px;
+  height: 80px;
+}
+
+.background-bus {
+  width: 100%;
+  height: 900px;
+  margin: 0 auto;
+  background: url("img/road.png");
+}
+
+.background-bus {
+  animation-name: bg-moving;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-play-state: running;
+}
+
+@keyframes bg-moving {
+  0% {
+    background-position: 0px;
+  }
+  100% {
+    background-position: -1920px;
+  }
+}
+
+.main-box {
+  width: 100%;
+  float: left;
+  margin-top: 200px;
+}
+
+.main-box > img {
+  z-index: 2;
+  position: absolute;
+  border: 0;
+  cursor: pointer;
+  cursor: hand;
+  width: 70px;
+}
+
+.bus {
+  margin-left: 450px;
+  margin-top: -100px;
+  position: absolute;
+}
+
+.intro-box {
+  border-radius: 80px;
+  width: 800px;
+  height: 500px;
+  top: 250px;
+  left: 950px;
+  background-color: skyblue;
+  float: left;
+  z-index: 3;
+  position: absolute;
+  display: block;
+  border: solid;
+  padding: 50px 50px 50px 50px;
+}
+
+h1 {
+  background-color: white;
+  font-color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+h3 {
+  text-align: center;
+}
+
+#click-go {
+  background-color: white;
+  font-color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+section {
+  background-color: lightblue;
+  border-radius: 50px;
+  padding: 30px;
+  width: 250px;
+  float: left;
+  position: absolute;
+  top: 350px;
+  left: 100px;
+}
+
+section > p > span {
+  background-color: yellow;
+}

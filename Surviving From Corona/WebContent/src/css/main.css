@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+body {
+  box-sizing: border-box;
+}
+body > * {
+  margin: 0;
+  min-width: 700px;
+}
+
+#nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* min-width: 1000px; */
+  height: 10vh;
+  font-family: 'Jua', sans-serif;
+}
+
+#container {
+  width: 100%;
+  height: 85vh;
+  z-index: 1;
+}
+
+.nav-item {
+  height: inherit;
+}
+
+#location {
+  width: 15%;
+}
+
+.loc-item {
+  font-size: 3vh;
+}
+
+#status {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  height: inherit;
+  font-family: 'Jua', sans-serif;
+}
+.status-item {
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+#virus_box {
+  flex-direction: row;
+}
+#money_box {
+  flex-direction: row;
+}
+#virus_icon {
+  height: 100%;
+}
+
+#virus_gauge {
+  height: 60%;
+  width: 100%;
+}
+
+#gauge_bound {
+  width: 100%;
+  height: 100%;
+  fill: #ebebeb;
+  fill-opacity: 0.5;
+  z-index: -999;
+}
+#gauge_amount {
+  stroke-opacity: 0;
+  stroke-width: 0;
+  height: 100%;
+  fill-opacity: 1;
+  fill: green;
+}
+
+#money_icon {
+  position: relative;
+  height: 100%;
+  width: 10vw;
+  z-index: 1;
+}
+#money {
+  position: relative;
+  display: inline-block;
+  font-size: 3vh;
+  left: -5vw;
+  z-index: 2;
+}
+
+#option {
+  width: 25%;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+li {
+  width: 50%;
+  height: inherit;
+}
+.option-icon {
+  width: 60%;
+  height: 70%;
+}

@@ -1,0 +1,73 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  position: relative;
+  /* margin: 10vh; */
+  text-align: center;
+  font-size: 5vh;
+}
+
+/* img {
+  width: 300px;
+} */
+
+.selection {
+  display: flex;
+  /* margin-top: 20vh; */
+  flex-direction: row;
+  justify-content: center;
+}
+
+.transportation {
+  width: 30vh;
+  height: 30vh;
+  border-radius: 15vh;
+  background-color: lightgray;
+  margin: 3vh;
+  /* float: left; */
+}
+
+.transportation > div {
+  height: 100%;
+  margin: 10vh;
+  text-align: center;
+  align-self: center;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.bus {
+  position: relative;
+  /*   left: 22%; */
+}
+
+.walk {
+  /* margin-left: 300px; */
+  position: relative;
+  /* left: 30%; */
+  cursor: pointer;
+  cursor: hand;
+}
+
+.bus-select {
+  /*   transform: scale(0.7); */
+  width: 70%;
+  position: relative;
+  /*   top: 70px; */
+}
+
+.walk-select {
+  /*   transform: scale(0.6); */
+  position: relative;
+  /*   top: 20px; */
+}
+
+.select {
+  margin: 15%;
+  width: 70%;
+  height: 70%;
+}

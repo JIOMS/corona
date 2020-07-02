@@ -1,0 +1,33 @@
+canvas {
+  position: absolute;
+  width: 100%;
+  height: inherit;
+}
+
+#container > div {
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  text-align: center;
+  z-index: 3;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#init_page {
+  display: block;
+}
+#last_page {
+  display: none;
+}
+
+h1 {
+  font-size: 4vw;
+}
+
+h2 {
+  font-size: 2.5vw;
+}
+
+h4 {
+  font-size: 1.8vw;
+}
